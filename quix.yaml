@@ -1,0 +1,27 @@
+# Quix Project Descriptor
+# This file describes the data pipeline and configuration of resources of a Quix Project.
+
+metadata:
+  version: 1.0
+
+# This section describes the Deployments of the data pipeline
+deployments: []
+
+# This section describes the Topics of the data pipeline
+topics:
+  - name: topic-one
+    linkedTopic:
+      workspaceId: quixdev-chris-dev
+      topicName: topic-one
+  - name: hard-braking
+    linkedTopic:
+      workspaceId: quixdev-chris-dev
+      topicName: hard-braking
+  - name: output-topic
+    linkedTopic:
+      workspaceId: quixdev-chris-dev
+      topicName: output-topic
+  - name: kkkk
+    linkedTopic:
+      workspaceId: quixdev-chris-dev
+      topicName: kkkk
